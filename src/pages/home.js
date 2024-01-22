@@ -24,8 +24,13 @@ class Home extends React.Component {
                 </a>
               </li>
               <li>
+                <a href="#experience" className="nav-link scrollto">
+                  <i className="bx bx-ghost"></i> <span>Experiences</span>
+                </a>
+              </li>
+              <li>
                 <a href="#resume" className="nav-link scrollto">
-                  <i className="bx bx-file-blank"></i> <span>Resume</span>
+                  <i className="bx bx-file-blank"></i> <span>Skills</span>
                 </a>
               </li>
               <li>
@@ -33,16 +38,7 @@ class Home extends React.Component {
                   <i className="bx bx-book-content"></i> <span>Portfolio</span>
                 </a>
               </li>
-              <li>
-                <a href="#services" className="nav-link scrollto">
-                  <i className="bx bx-server"></i> <span>Services</span>
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="nav-link scrollto">
-                  <i className="bx bx-envelope"></i> <span>Contact</span>
-                </a>
-              </li>
+             
             </ul>
           </nav>
         </header>
@@ -93,7 +89,7 @@ class Home extends React.Component {
                       <ul>
                         <li>
                           <i className="bi bi-chevron-right"></i>{" "}
-                          <strong>Name:</strong> <span>Ashley, 劉宜蓁(18y/she)</span>
+                          <strong>Name:</strong> <span>Ashley, 劉宜蓁(19y/she)</span>
                         </li> 
                         <li>
                           <i className="bi bi-chevron-right"></i>{" "}
@@ -125,185 +121,26 @@ class Home extends React.Component {
               </div>
             </div>
           </section>
-
-          {/* <!-- ======= Facts Section ======= -->
-          <section id="facts" className="facts">
+          
+          {/* <!-- ======= Working Experiences Section ======= --> */}
+          <section id="experience" className="experience">
             <div className="container" data-aos="fade-up">
               <div className="section-title">
-                <h2>Facts</h2>
-                <p>
-                  Magnam dolores commodi suscipit. Necessitatibus eius
-                  consequatur ex aliquid fuga eum quidem. Sit sint consectetur
-                  velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit
-                  suscipit alias ea. Quia fugiat sit in iste officiis commodi
-                  quidem hic quas.
-                </p>
+                <h2>Working Experiences</h2>
               </div>
-
               <div className="row">
-                <div className="col-lg-3 col-md-6">
-                  <div className="count-box">
-                    <i className="bi bi-emoji-smile"></i>
-                    <span
-                      data-purecounter-start="0"
-                      data-purecounter-end="232"
-                      data-purecounter-duration="1"
-                      className="purecounter"
-                    ></span>
-                    <p>Happy Clients</p>
+                {/* <img alt="resume-experience" src="https://raw.githubusercontent.com/Ash0645/image_remote/main/202401152149480.png"/> */}
+                <div className="col-3 d-flex justify-content-center">
+                  <img style={{ maxWidth: '45%'}} alt="AUO-logo" src="https://raw.githubusercontent.com/Ash0645/image_remote/main/202401152201523.jpg"></img>
                   </div>
-                </div>
-
-                <div className="col-lg-3 col-md-6 mt-5 mt-md-0">
-                  <div className="count-box">
-                    <i className="bi bi-journal-richtext"></i>
-                    <span
-                      data-purecounter-start="0"
-                      data-purecounter-end="521"
-                      data-purecounter-duration="1"
-                      className="purecounter"
-                    ></span>
-                    <p>Projects</p>
-                  </div>
-                </div>
-
-                <div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
-                  <div className="count-box">
-                    <i className="bi bi-headset"></i>
-                    <span
-                      data-purecounter-start="0"
-                      data-purecounter-end="1463"
-                      data-purecounter-duration="1"
-                      className="purecounter"
-                    ></span>
-                    <p>Hours Of Support</p>
-                  </div>
-                </div>
-
-                <div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
-                  <div className="count-box">
-                    <i className="bi bi-award"></i>
-                    <span
-                      data-purecounter-start="0"
-                      data-purecounter-end="25"
-                      data-purecounter-duration="1"
-                      className="purecounter"
-                    ></span>
-                    <p>Awards</p>
-                  </div>
+                <div className="col-9">
+                  <h4 color="#0563bb">Software develop internship  •  AU Optronics Corporation (AUO)</h4>
+                  <h5>July 2023 - September 2023</h5>
+                  <p>Designed an intuitive and user-friendly interface for an eco-OVEN system in order to display and claculate realtime status of all machienes in FAB center. (Gathering PLC data and presenting it in the front end with Django+FastAPI)</p>
                 </div>
               </div>
             </div>
-          </section> */}
-
-          {/* <!-- ======= Skills Section ======= --> */}
-          {/* <section id="skills" className="skills section-bg">
-            <div className="container" data-aos="fade-up">
-              <div className="section-title">
-                <h2>Skills</h2>
-                <p>
-                  Here are some skills that I've been advancing
-                </p>
-              </div>
-
-              <div className="row skills-content">
-                <div className="col-lg-6">
-                  <div className="progress">
-                    <span className="skill">
-                      web-related<br/>HTML/CSS/JS <i className="val">100%</i>
-                    </span>
-                    <div className="progress-bar-wrap">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-
-                  <div className="progress">
-                    <span className="skill">
-                      CSS <i className="val">90%</i>
-                    </span>
-                    <div className="progress-bar-wrap">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="90"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-
-                  <div className="progress">
-                    <span className="skill">
-                      JavaScript <i className="val">75%</i>
-                    </span>
-                    <div className="progress-bar-wrap">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="75"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-6">
-                  <div className="progress">
-                    <span className="skill">
-                      PHP <i className="val">80%</i>
-                    </span>
-                    <div className="progress-bar-wrap">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-
-                  <div className="progress">
-                    <span className="skill">
-                      WordPress/CMS <i className="val">90%</i>
-                    </span>
-                    <div className="progress-bar-wrap">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="90"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-
-                  <div className="progress">
-                    <span className="skill">
-                      Photoshop <i className="val">55%</i>
-                    </span>
-                    <div className="progress-bar-wrap">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="55"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section> */}
-          {/* <SkillsSection/> */}
+          </section>
 
           {/* <!-- ======= Resume Section ======= --> */}
           <section id="resume" className="resume">
@@ -331,11 +168,11 @@ class Home extends React.Component {
                     <h4>developing skills</h4>
                     <p><em>Framework</em></p>
                     <ul>
-                      <li>Django, React, Vue</li>                      
+                      <li>Django, React, Vue, nextJS</li>                      
                     </ul>
                     <p><em>APIs</em></p>                
                     <ul>
-                      <li>RESTful API, Fast API</li>                    
+                      <li>Flask, Fast API, RESTful API</li>                    
                     </ul>
                     <p><em>Database</em></p>
                     <ul>
@@ -351,8 +188,7 @@ class Home extends React.Component {
                       </ul>
                     <p><em>WorkFlow</em></p>
                       <ul>
-                        <li>Github, Gitlab</li>
-                        <li>Kafka</li>
+                        <li>Github, Gitlab</li>                       
                       </ul>
                   </div>
                 </div>
@@ -376,17 +212,18 @@ class Home extends React.Component {
                   <div className="resume-item pb-0">
                     <h4>Tools</h4>
                     <ul>
-                      <li>Wireshark, Burbsuite</li>
-                      <li>Nmap, shogun, John the ripper</li>      
+                      <li>Wireshark, Burpsuite</li>
+                      <li>Nmap, shodan, John the ripper...</li>      
                     </ul>
                   </div>
                   <h3 className="resume-title">Designing</h3>
                   <div className="resume-item pb-0">
                   <h4>JS extends Framework</h4>
                     <ul>
-                      <li>Echart, Apexchart, MapMask</li>
-                      <li>P5.JS</li>
-                      <li>THREE.JS</li>
+                      <li>D3.js</li>
+                      <li>Echart, Apexchart, Mapbox</li>
+                      <li>P5.js</li>
+                      <li>Three.js</li>
                     </ul>
                     <h4>Tools</h4>
                     <ul>
@@ -400,17 +237,15 @@ class Home extends React.Component {
             </div>
           </section>
 
+          
+
           {/* <!-- ======= Portfolio Section ======= --> */}
           <section id="portfolio" className="portfolio section-bg">
             <div className="container" data-aos="fade-up">
               <div className="section-title">
                 <h2>Portfolio</h2>
                 <p>
-                  Magnam dolores commodi suscipit. Necessitatibus eius
-                  consequatur ex aliquid fuga eum quidem. Sit sint consectetur
-                  velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit
-                  suscipit alias ea. Quia fugiat sit in iste officiis commodi
-                  quidem hic quas.
+                  Here are some project I've made :)
                 </p>
               </div>
 
@@ -728,7 +563,7 @@ class Home extends React.Component {
           </section>
 
           {/* <!-- ======= Services Section ======= --> */}
-          <section id="services" className="services">
+          {/* <section id="services" className="services">
             <div className="container" data-aos="fade-up">
               <div className="section-title">
                 <h2>Services</h2>
@@ -935,10 +770,10 @@ class Home extends React.Component {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
 
           {/* <!-- ======= Testimonials Section ======= --> */}
-          <section id="testimonials" className="testimonials section-bg">
+          {/* <section id="testimonials" className="testimonials section-bg">
             <div className="container" data-aos="fade-up">
               <div className="section-title">
                 <h2>Testimonials</h2>
@@ -1053,105 +888,13 @@ class Home extends React.Component {
                 <div className="swiper-pagination"></div>
               </div>
             </div>
-          </section>
+          </section> */}
 
-          {/* <!-- ======= Contact Section ======= --> */}
-          <section id="contact" className="contact">
-            <div className="container" data-aos="fade-up">
-              <div className="section-title">
-                <h2>Contact</h2>
-              </div>
-
-              <div className="row mt-1">
-                <div className="col-lg-4">
-                  <div className="info">
-                    <div className="address">
-                      <i className="bi bi-geo-alt"></i>
-                      <h4>Location:</h4>
-                      <p>A108 Adam Street, New York, NY 535022</p>
-                    </div>
-
-                    <div className="email">
-                      <i className="bi bi-envelope"></i>
-                      <h4>Email:</h4>
-                      <p>info@example.com</p>
-                    </div>
-
-                    <div className="phone">
-                      <i className="bi bi-phone"></i>
-                      <h4>Call:</h4>
-                      <p>+1 5589 55488 55s</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-8 mt-5 mt-lg-0">
-                  <form
-                    action="forms/contact.php"
-                    method="post"
-                    role="form"
-                    className="php-email-form"
-                  >
-                    <div className="row">
-                      <div className="col-md-6 form-group">
-                        <input
-                          type="text"
-                          name="name"
-                          className="form-control"
-                          id="name"
-                          placeholder="Your Name"
-                          required
-                        />
-                      </div>
-                      <div className="col-md-6 form-group mt-3 mt-md-0">
-                        <input
-                          type="email"
-                          className="form-control"
-                          name="email"
-                          id="email"
-                          placeholder="Your Email"
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div className="form-group mt-3">
-                      <input
-                        type="text"
-                        className="form-control"
-                        name="subject"
-                        id="subject"
-                        placeholder="Subject"
-                        required
-                      />
-                    </div>
-                    <div className="form-group mt-3">
-                      <textarea
-                        className="form-control"
-                        name="message"
-                        rows="5"
-                        placeholder="Message"
-                        required
-                      ></textarea>
-                    </div>
-                    <div className="my-3">
-                      <div className="loading">Loading</div>
-                      <div className="error-message"></div>
-                      <div className="sent-message">
-                        Your message has been sent. Thank you!
-                      </div>
-                    </div>
-                    <div className="text-center">
-                      <button type="submit">Send Message</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </section>
+          
         </main>
 
         {/* <!-- ======= Footer ======= --> */}
-        <footer id="footer">
+        {/* <footer id="footer">
           <div className="container">
             <h3>Brandon Johnson</h3>
             <p>
@@ -1183,7 +926,7 @@ class Home extends React.Component {
               . All Rights Reserved
             </div>
           </div>
-        </footer>
+        </footer> */}
       </div>
     );
   }
