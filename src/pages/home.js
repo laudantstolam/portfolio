@@ -78,7 +78,7 @@ class Home extends React.Component {
               <div className="row">
                 <div className="col-lg-4">
                   <img
-                    src="assets/img/profile-img.jpg"
+                    src="https://raw.githubusercontent.com/Ash0645/image_remote/main/202401230105886.jpg"
                     className="img-fluid"
                     alt=""
                   />
@@ -97,9 +97,12 @@ class Home extends React.Component {
                         </li>                     
                         <li>
                           <i className="bi bi-chevron-right"></i>{" "}
-                          <strong>Degree:</strong> <span>National Taipei University of Technology(NTUT)--undergraduate</span>
+                          <strong>School:</strong> <span>National Taipei University of Technology(NTUT)--undergraduate</span>
                         </li>
-                        
+                        <li>
+                          <i className="bi bi-chevron-right"></i>{" "}
+                          <strong>Department:</strong> <span>Department of Intelligent Automation Engineering <a href="https://iae.ntut.edu.tw/?Lang=en">(LINK)</a></span>
+                        </li>
                         <li>
                           <i className="bi bi-chevron-right"></i>{" "}
                           <strong>Language:</strong> <span>fluent→Manderine/English/Japanese<br/>learing→German/Spanish</span>
@@ -114,8 +117,7 @@ class Home extends React.Component {
                     </div>
                   </div>
                   <p>
-                    I'm Ashley, currently study in NTUT's five year program of Intelligent Automation Engineering. Which is a program combined Engineering and Computer Science.
-                    I'v been interested in Web develop and designing useful cool stuff that can make our life more colorful :)
+                  I am Ashley, and I am currently enrolled in NTUT's five-year Intelligent Automation Engineering program. Which is a program that combines engineering and computer science. I've been interested in web development and cyber security. I enjoy designing and implementing helpful, cool things to make my life more interesting:)
                   </p>
                 </div>
               </div>
@@ -136,7 +138,7 @@ class Home extends React.Component {
                 <div className="col-9">
                   <h4 color="#0563bb">Software develop internship  •  AU Optronics Corporation (AUO)</h4>
                   <h5>July 2023 - September 2023</h5>
-                  <p>Designed an intuitive and user-friendly interface for an eco-OVEN system in order to display and claculate realtime status of all machienes in FAB center. (Gathering PLC data and presenting it in the front end with Django+FastAPI)</p>
+                  <p>Designed an intuitive and user-friendly interface(DASHBOARD) for an eco-OVEN system in order to display and claculate realtime status of all machienes in FAB center. (Gathering PLC data and presenting it in the front end with Django+FastAPI)</p>
                 </div>
               </div>
             </div>
@@ -148,7 +150,7 @@ class Home extends React.Component {
               <div className="section-title">
                 <h2>Skills</h2>
                 <p>
-                  Here are some skills that I've been advancing.
+                  I've been interested and advancing in different feilds, here are some skills that I've been advancing.
                 </p>
               </div>
               <div className="row">
@@ -168,7 +170,8 @@ class Home extends React.Component {
                     <h4>developing skills</h4>
                     <p><em>Framework</em></p>
                     <ul>
-                      <li>Django, React, Vue, nextJS</li>                      
+                      <li>Django, React, Vue, nextJS</li>  
+                      <li>MVC, REST</li>                    
                     </ul>
                     <p><em>APIs</em></p>                
                     <ul>
@@ -176,7 +179,7 @@ class Home extends React.Component {
                     </ul>
                     <p><em>Database</em></p>
                     <ul>
-                      <li>MySQL, MongoDB</li>                     
+                      <li>MySQL, MongoDB, Firestore</li>                     
                     </ul>
                   </div>
                   <div className="resume-item">
@@ -196,17 +199,17 @@ class Home extends React.Component {
                   <h3 className="resume-title">Engineering</h3>
                   <div className="resume-item pb-0">
                     <h4>Overview</h4>
-                    <p><em>Deep Learning</em></p>
                       <ul>
-                        <li>Tensorflow</li>
-                        <li>Pytorch</li>
+                        <li>ROS system</li>
+                        <li>AUTOCAD moduling</li>
+                        <li>Micro Drilling (EDM machiene)</li>
                       </ul>               
                   </div>
                   <h3 className="resume-title">Cyber Security</h3>
                   <div className="resume-item pb-0">
                     <h4>Field</h4>
                     <p>
-                      I've been interested in Web security and blue team related field
+                      started from PicoCTF I've been fumbling in CS field with my friends and recently been advancing in web security part
                     </p>
                   </div>
                   <div className="resume-item pb-0">
@@ -214,7 +217,7 @@ class Home extends React.Component {
                     <ul>
                       <li>Wireshark, Burpsuite</li>
                       <li>Nmap, shodan, John the ripper...</li>      
-                    </ul>
+                    </ul>                  
                   </div>
                   <h3 className="resume-title">Designing</h3>
                   <div className="resume-item pb-0">
@@ -249,7 +252,7 @@ class Home extends React.Component {
                 </p>
               </div>
 
-              <div className="row">
+              {/* <div className="row">
                 <div
                   className="col-lg-12 d-flex justify-content-center"
                   data-aos="fade-up"
@@ -264,7 +267,7 @@ class Home extends React.Component {
                     <li data-filter=".filter-web">Web</li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
 
               <div
                 className="row portfolio-container"
@@ -274,29 +277,21 @@ class Home extends React.Component {
                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div className="portfolio-wrap">
                     <img
-                      src="assets/img/portfolio/portfolio-1.jpg"
+                      src="https://raw.githubusercontent.com/Ash0645/image_remote/main/202401311251052.png"
                       className="img-fluid"
                       alt=""
                     />
-                    <div className="portfolio-info">
-                      <h4>App 1</h4>
-                      <p>App</p>
-                      <div className="portfolio-links">
+                    <div className="portfolio-info">                      
+                      <h4>Spotify DUAL</h4>
+                      <p>spotify data visualization || FLASK+D3</p>
+                      <div className="portfolio-links">                        
                         <a
-                          href="assets/img/portfolio/portfolio-1.jpg"
-                          data-gallery="portfolioGallery"
-                          className="portfolio-lightbox"
-                          title="App 1"
-                        >
-                          <i className="bx bx-plus"></i>
-                        </a>
-                        <a
-                          href="portfolio-details.html"
+                          href="https://github.com/laudantstolam/data_analyze_dual"
                           className="portfolio-details-lightbox"
                           data-glightbox="type: external"
                           title="Portfolio Details"
                         >
-                          <i className="bx bx-link"></i>
+                          <i class='bx bxl-github'></i>
                         </a>
                       </div>
                     </div>
@@ -306,29 +301,29 @@ class Home extends React.Component {
                 <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                   <div className="portfolio-wrap">
                     <img
-                      src="assets/img/portfolio/portfolio-2.jpg"
+                      src="https://raw.githubusercontent.com/Ash0645/image_remote/main/202402110006740.png"
                       className="img-fluid"
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h4>Web 3</h4>
-                      <p>Web</p>
+                      <h4>What does Shu says</h4>
+                      <p>React based clicking game || React+Firebase</p>
                       <div className="portfolio-links">
                         <a
-                          href="assets/img/portfolio/portfolio-2.jpg"
+                          href="https://birshudeyy2023.github.io/what-does-Shu-say/"
                           data-gallery="portfolioGallery"
                           className="portfolio-lightbox"
                           title="Web 3"
                         >
-                          <i className="bx bx-plus"></i>
+                          <i className="bx bxl-internet-explorer"></i>
                         </a>
                         <a
-                          href="portfolio-details.html"
+                          href="https://github.com/BirShuDeyy2023/what-does-Shu-say"
                           className="portfolio-details-lightbox"
                           data-glightbox="type: external"
                           title="Portfolio Details"
                         >
-                          <i className="bx bx-link"></i>
+                          <i class='bx bxl-github'></i>
                         </a>
                       </div>
                     </div>
@@ -338,30 +333,23 @@ class Home extends React.Component {
                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div className="portfolio-wrap">
                     <img
-                      src="assets/img/portfolio/portfolio-3.jpg"
+                      src="https://raw.githubusercontent.com/Ash0645/image_remote/main/202306212151683.png"
                       className="img-fluid"
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h4>App 2</h4>
-                      <p>App</p>
+                      <h4>SUBTITLE</h4>
+                      <p>a focusing project which support Pomodoro/Music Playing/Todo List || Pygame</p>
                       <div className="portfolio-links">
                         <a
-                          href="assets/img/portfolio/portfolio-3.jpg"
+                          href="https://github.com/Lyz-0723/Subtitle"
                           data-gallery="portfolioGallery"
                           className="portfolio-lightbox"
                           title="App 2"
                         >
-                          <i className="bx bx-plus"></i>
+                          <i class='bx bxl-github'></i>
                         </a>
-                        <a
-                          href="portfolio-details.html"
-                          className="portfolio-details-lightbox"
-                          data-glightbox="type: external"
-                          title="Portfolio Details"
-                        >
-                          <i className="bx bx-link"></i>
-                        </a>
+                        
                       </div>
                     </div>
                   </div>
@@ -370,36 +358,36 @@ class Home extends React.Component {
                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                   <div className="portfolio-wrap">
                     <img
-                      src="assets/img/portfolio/portfolio-4.jpg"
+                      src="https://raw.githubusercontent.com/Ash0645/image_remote/main/202402110023222.png"
                       className="img-fluid"
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h4>Card 2</h4>
-                      <p>Card</p>
+                      <h4>Font detect and suggest</h4>
+                      <p>self trained+data prepared DL model that can detect EG Fonts and Recommend simillar ones || Tensorflow</p>
                       <div className="portfolio-links">
                         <a
-                          href="assets/img/portfolio/portfolio-4.jpg"
+                          href="https://www.youtube.com/watch?v=g9L1hlymcEQ"
                           data-gallery="portfolioGallery"
                           className="portfolio-lightbox"
                           title="Card 2"
                         >
-                          <i className="bx bx-plus"></i>
+                          <i class='bx bxl-youtube'></i>
                         </a>
                         <a
-                          href="portfolio-details.html"
-                          className="portfolio-details-lightbox"
-                          data-glightbox="type: external"
-                          title="Portfolio Details"
+                          href="https://github.com/laudantstolam/font_detect"
+                          data-gallery="portfolioGallery"
+                          className="portfolio-lightbox"
+                          title="App 2"
                         >
-                          <i className="bx bx-link"></i>
+                          <i class='bx bxl-github'></i>
                         </a>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                {/* <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                   <div className="portfolio-wrap">
                     <img
                       src="assets/img/portfolio/portfolio-5.jpg"
@@ -557,7 +545,7 @@ class Home extends React.Component {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </section>
