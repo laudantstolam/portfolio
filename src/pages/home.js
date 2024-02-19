@@ -143,7 +143,21 @@ class Home extends React.Component {
               </div>
             </div>
           </section>
-
+          {/* <!-- ======= Certificate Section ======= --> */}
+          <section id="certificate" className="certificate">
+            <div className="container" data-aos="fade-up">
+              <div className="section-title">
+                <h2>Certificates</h2>
+              </div>
+              <div className="row">
+                
+                <div className="col-9">
+                  <h4 color="#0563bb">MOEA Certified Information Security Engineer-Associate Level</h4>
+                  <h5>November 2023</h5>
+                </div>
+              </div>
+            </div>
+          </section>
           {/* <!-- ======= Resume Section ======= --> */}
           <section id="resume" className="resume">
             <div className="container" data-aos="fade-up">
