@@ -143,14 +143,18 @@ class Home extends React.Component {
               </div>
             </div>
           </section>
-          {/* <!-- ======= Certificate Section ======= --> */}
-          <section id="certificate" className="certificate">
+
+          {/* <!-- ======= Certificates Section ======= --> */}
+          <section id="experience" className="experience">
             <div className="container" data-aos="fade-up">
               <div className="section-title">
                 <h2>Certificates</h2>
               </div>
               <div className="row">
-                
+                {/* <img alt="resume-experience" src="https://raw.githubusercontent.com/Ash0645/image_remote/main/202401152149480.png"/> */}
+                <div className="col-3 d-flex justify-content-center">
+                  <img style={{ maxWidth: '45%'}} alt="AUO-logo" src="https://raw.githubusercontent.com/Ash0645/image_remote/main/202402211608170.png"></img>
+                  </div>
                 <div className="col-9">
                   <h4 color="#0563bb">MOEA Certified Information Security Engineer-Associate Level</h4>
                   <h5>November 2023</h5>
@@ -158,6 +162,7 @@ class Home extends React.Component {
               </div>
             </div>
           </section>
+          
           {/* <!-- ======= Resume Section ======= --> */}
           <section id="resume" className="resume">
             <div className="container" data-aos="fade-up">
