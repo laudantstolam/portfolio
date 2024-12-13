@@ -226,16 +226,24 @@ class Home extends React.Component {
                   </div>
                   <h3 className="resume-title">Cyber Security</h3>
                   <div className="resume-item pb-0">
-                    <h4>Field</h4>
+                    <h4>Blue Team</h4>
                     <p>
-                      started from PicoCTF I've been fumbling in CS field with my friends and recently been advancing in web security part
+                      focusing on reverse engineering and forensic/auditing skills, recently been preparing for ISACA-CISA certificate 
                     </p>
+                    <ul>
+                     <li>Ghidra/IDA/angr</li>
+                     <li>participating in 2025 Teamt5 camp</li>      
+                    </ul>
                   </div>
                   <div className="resume-item pb-0">
-                    <h4>Tools</h4>
+                    <h4>Red Team</h4>
+                    <p>
+                      has participating in some ctf competition, and familiar with Nmap/Wireshark/sqlmap 
+                    </p>
                     <ul>
-                      <li>Wireshark, Burpsuite</li>
-                      <li>Nmap, shodan, John the ripper...</li>      
+                      <li>AEGIS(神盾盃) pre-exam: 4, final: 6</li>
+                      <li>GICS(資安女婕思) final: 1(2023), 2(2024)</li>
+                      <li>CGGC pre-exam</li>
                     </ul>                  
                   </div>
                   <h3 className="resume-title">Designing</h3>
